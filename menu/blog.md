@@ -2,7 +2,7 @@
 layout: page
 title: 
 ---
-These are posts informal notes and may contain errors — please let me know if you find any.
+These are informal notes and may contain errors — please let me know if you find any.
 
 <ul class="posts">
   {% for post in site.posts %}
