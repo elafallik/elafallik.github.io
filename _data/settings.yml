@@ -8,6 +8,7 @@ google-ID: ''
 
 menu:
 # - {name: 'Publications', path: 'menu', url: 'publications.html'}
+- {name: 'About', path: 'menu', url: 'about.html'}
 - {name: 'CV', path: 'menu', url: '../files/ElaFallik_CVmay24.pdf'}
 - {name: 'Technical blog', path: 'menu', url: 'blog.html'}
 
