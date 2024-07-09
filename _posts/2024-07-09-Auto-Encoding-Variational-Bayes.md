@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Auto-Encoding Variational Bayes"
+author: "Ela Fallik"
+categories: journal
+tags: 
+image: 
+---
+
 # Auto-Encoding Variational Bayes
 
 [https://arxiv.org/pdf/1312.6114](https://arxiv.org/pdf/1312.6114)
