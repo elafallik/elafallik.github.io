@@ -45,7 +45,7 @@ This integration is usually challenging and computationally expensive (except in
 
 There are many approaches to accelerate posterior calculations in Bayesian networks. One method is Variational inference, where we choose some family Q of distributions (usually a parametric family $Q=\{q_\phi (z)\}$) and look for $q\in Q$ that is the closest to the posterior $p(z\mid x)$. 
 
-![Screenshot 2024-05-16 at 15.43.41.png](Auto-Encoding%20Variational%20Bayes%200411ccd2a02f4af09c549afac3e3257b/Screenshot_2024-05-16_at_15.43.41.png)
+![alt text](/assets/img/Auto-Encoding-Variational-Bayes/Screenshot_2024-05-16_at_15.43.41.png)
 
 ### What does “close” mean?
 
@@ -55,7 +55,7 @@ $D_{KL}[q(z)\mid \mid p(z\mid x)] = \int_z q(z)\cdot log(\frac{q(z)}{p(z\mid x)}
 
 The intuition is that in areas where $q$ is small, the distance is small. In areas 
 
-![[https://www.cs.cmu.edu/~epxing/Class/10708-15/notes/10708_scribe_lecture13.pdf](https://www.cs.cmu.edu/~epxing/Class/10708-15/notes/10708_scribe_lecture13.pdf)](Auto-Encoding%20Variational%20Bayes%200411ccd2a02f4af09c549afac3e3257b/Screenshot_2024-05-16_at_15.47.50.png)
+![[https://www.cs.cmu.edu/~epxing/Class/10708-15/notes/10708_scribe_lecture13.pdf](https://www.cs.cmu.edu/~epxing/Class/10708-15/notes/10708_scribe_lecture13.pdf)](/assets/img/Auto-Encoding-Variational-Bayes/Screenshot_2024-05-16_at_15.47.50.png)
 
 [https://www.cs.cmu.edu/~epxing/Class/10708-15/notes/10708_scribe_lecture13.pdf](https://www.cs.cmu.edu/~epxing/Class/10708-15/notes/10708_scribe_lecture13.pdf)
 
